@@ -28,6 +28,9 @@ $manifest = [ordered]@{
     mods        = @($mods)
 }
 
+# WriteAllText without BOM: Windows PowerShell's UTF8 adds a BOM, which
+# breaks Invoke-RestMethod's JSON parsing on player machines.
 $manifestPath = Join-Path $PSScriptRoot "manifest.json"
-$manifest | ConvertTo-Json -Depth 5 | Set-Content $manifestPath -Encoding UTF8
+$json = $manifest | ConvertTo-Json -Depth 5
+[System.IO.File]::WriteAllText($manifestPath, $json, [System.Text.UTF8Encoding]::new($false))
 Write-Output "Wrote manifest.json with $($mods.Count) mod(s), packVersion $($manifest.packVersion)"

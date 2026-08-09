@@ -26,6 +26,10 @@ $statePath = Join-Path $ModsDir ".glyph-pack-state.json"
 Write-Output "Glyph modpack updater - checking $manifestUrl"
 try {
     $manifest = Invoke-RestMethod $manifestUrl -TimeoutSec 30
+    if ($manifest -is [string]) {
+        # Older PowerShell won't auto-parse JSON that starts with a BOM.
+        $manifest = $manifest.TrimStart([char]0xFEFF) | ConvertFrom-Json
+    }
 } catch {
     # Never block a game launch because GitHub is unreachable.
     Write-Warning "Could not fetch the pack manifest ($_). Launching with current mods."
