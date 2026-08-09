@@ -1,0 +1,111 @@
+﻿{
+    "name":  "Glyph Client Modpack",
+    "packVersion":  "2026.08.09",
+    "minecraft":  "26.2",
+    "loader":  "fabric",
+    "server":  "play.glyphmc.net",
+    "mods":  [
+                 {
+                     "file":  "appleskin-fabric-mc26.2-3.0.10.jar",
+                     "sha256":  "e92f4d28973aec7ba9dbbfa74d163a1fadab0288fb3482247eb443cf03aa2178",
+                     "size":  181627,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/appleskin-fabric-mc26.2-3.0.10.jar"
+                 },
+                 {
+                     "file":  "architectury-fabric-21.0.7.jar",
+                     "sha256":  "0f57afbd3dcddd0b7304c22d712ccf5437e2c41270ec08bd2d8c4e1df0a6d627",
+                     "size":  587038,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/architectury-fabric-21.0.7.jar"
+                 },
+                 {
+                     "file":  "cloth-config-26.2.155.jar",
+                     "sha256":  "def4be7639cd66704f7e304d658ea0f6bf490fb4a6eaa2dbf18ec2c3999d6349",
+                     "size":  1135186,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/cloth-config-26.2.155.jar"
+                 },
+                 {
+                     "file":  "fabric-api-0.156.0+26.2.jar",
+                     "sha256":  "8de18d9f6a8a2a5b2120ef9e8bffb79cc9b75989c0c022c39c9dfc1bc3a29a99",
+                     "size":  2531175,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/fabric-api-0.156.0%2B26.2.jar"
+                 },
+                 {
+                     "file":  "fabric-language-kotlin-1.13.13+kotlin.2.4.10.jar",
+                     "sha256":  "34ccdacf13bb9351fe43ce61912c2e09b72364e43e787d36ba3d2d04dec75a52",
+                     "size":  8076363,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/fabric-language-kotlin-1.13.13%2Bkotlin.2.4.10.jar"
+                 },
+                 {
+                     "file":  "ImmediatelyFast-Fabric-1.16.2+26.2.jar",
+                     "sha256":  "40da44194cd1dabdc5399c8e3c46253b6a568c2f4f9e2363a3b3a0069531d770",
+                     "size":  91422,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/ImmediatelyFast-Fabric-1.16.2%2B26.2.jar"
+                 },
+                 {
+                     "file":  "InventoryProfilesNext-fabric-26.2-2.3.5.jar",
+                     "sha256":  "944050449874618559007a008e6ce90313d325882b9ef24ba80c8ad944a9007c",
+                     "size":  1461780,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/InventoryProfilesNext-fabric-26.2-2.3.5.jar"
+                 },
+                 {
+                     "file":  "iris-fabric-1.11.2+mc26.2.jar",
+                     "sha256":  "df0e2ccddaea17b191eda32b21c979e131bc9d4ef4f831113b50b461fc4a3804",
+                     "size":  2820763,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/iris-fabric-1.11.2%2Bmc26.2.jar"
+                 },
+                 {
+                     "file":  "Jade-mc26.2-Fabric-26.2.10.jar",
+                     "sha256":  "fac458f4a19da6c13505cd25429903ac184efb200c07da892546db59f1f9b719",
+                     "size":  1043666,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/Jade-mc26.2-Fabric-26.2.10.jar"
+                 },
+                 {
+                     "file":  "jei-26.2-fabric-30.17.0.135.jar",
+                     "sha256":  "38800c5199d51cea872a38c10905b99f832ba0f7bfbaf6f7ac6c3667f367468b",
+                     "size":  1687459,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/jei-26.2-fabric-30.17.0.135.jar"
+                 },
+                 {
+                     "file":  "libIPN-fabric-26.2-6.8.2.jar",
+                     "sha256":  "21497d8053d41ce4cc154327f392634e1337e23773bbbb88a9ff69da244448be",
+                     "size":  630245,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/libIPN-fabric-26.2-6.8.2.jar"
+                 },
+                 {
+                     "file":  "modmenu-20.0.1.jar",
+                     "sha256":  "81bfbca06012c57c74949072f2ffaad06360badee4d00dc59bfaeac80dd24bd8",
+                     "size":  614002,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/modmenu-20.0.1.jar"
+                 },
+                 {
+                     "file":  "shulkerboxtooltip-fabric-5.4.0+26.2.jar",
+                     "sha256":  "f5c1e570e22511a40a762ef68642c9ae57ec8a85fcf9ea309f05622904eda36d",
+                     "size":  419105,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/shulkerboxtooltip-fabric-5.4.0%2B26.2.jar"
+                 },
+                 {
+                     "file":  "sodium-fabric-0.9.1+mc26.2.jar",
+                     "sha256":  "de406c7a0ca5e748dfbe44740278400882a44e3109e2584b243ec02d4003344b",
+                     "size":  1834384,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/sodium-fabric-0.9.1%2Bmc26.2.jar"
+                 },
+                 {
+                     "file":  "voicechat-fabric-2.6.22+26.2.jar",
+                     "sha256":  "1b6a8c6c41d6d7edaa10543ac623a70b0c60f22f34567969b6999c345aa277b2",
+                     "size":  5576838,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/voicechat-fabric-2.6.22%2B26.2.jar"
+                 },
+                 {
+                     "file":  "xaerominimap-fabric-26.2-26.4.2.jar",
+                     "sha256":  "69284892d2eb853c9aefa85a4c9b74232c322da00207994c67ab8aeed8a64048",
+                     "size":  2221925,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/xaerominimap-fabric-26.2-26.4.2.jar"
+                 },
+                 {
+                     "file":  "xaeroworldmap-fabric-26.2-1.44.2.jar",
+                     "sha256":  "d55ef45c559ae0adcf66d894c022f61d9d921629b0c885d04aa00424546a2389",
+                     "size":  1473719,
+                     "url":  "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/xaeroworldmap-fabric-26.2-1.44.2.jar"
+                 }
+             ]
+}
