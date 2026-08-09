@@ -1,7 +1,7 @@
 # Glyph client modpack auto-updater.
 #
 # Put this script in your Minecraft instance folder (the one that contains
-# the mods/ folder) and run it — it downloads new and updated Glyph pack
+# the mods/ folder) and run it - it downloads new and updated Glyph pack
 # mods and removes pack mods that were dropped from the pack. Mods YOU
 # added yourself are never touched: the updater only manages files it
 # installed, tracked in mods/.glyph-pack-state.json.
@@ -23,7 +23,7 @@ if (-not (Test-Path $ModsDir)) {
 }
 $statePath = Join-Path $ModsDir ".glyph-pack-state.json"
 
-Write-Output "Glyph modpack updater — checking $manifestUrl"
+Write-Output "Glyph modpack updater - checking $manifestUrl"
 try {
     $manifest = Invoke-RestMethod $manifestUrl -TimeoutSec 30
 } catch {
@@ -55,7 +55,7 @@ foreach ($mod in $manifest.mods) {
         $hash = (Get-FileHash $temp -Algorithm SHA256).Hash.ToLowerInvariant()
         if ($hash -ne $mod.sha256) {
             Remove-Item $temp
-            Write-Warning "  checksum mismatch for $($mod.file) — skipped"
+            Write-Warning "  checksum mismatch for $($mod.file) - skipped"
             continue
         }
         Move-Item $temp $target -Force
