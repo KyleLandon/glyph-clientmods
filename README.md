@@ -11,7 +11,7 @@ and quality-of-life features that match the server.
 | Mod | Why |
 | --- | --- |
 | Simple Voice Chat | Proximity voice on the server |
-| Xaero's Minimap + World Map | Maps and waypoints |
+| Xaero's Minimap + World Map | Maps and waypoints. Move the minimap to the **left** (`Y` → Change Position) so it does not cover the server cash HUD on the right. |
 | Sodium, ImmediatelyFast | Performance |
 | Iris | Shader support |
 | JEI | Recipe lookup |
