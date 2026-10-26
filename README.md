@@ -20,6 +20,12 @@ and quality-of-life features that match the server.
 | Inventory Profiles Next | Inventory sorting |
 | ShulkerBoxTooltip | Shulker previews |
 | Mod Menu | In-game mod config |
+| Lithium | Server and game-logic performance |
+| Entity Culling | Skips rendering hidden entities |
+| Sodium Extras | Extra Sodium options |
+| Mouse Tweaks | Faster inventory moves with the mouse |
+| Continuity | Connected textures (glass, etc.) |
+| Ferrite Core | Lower memory use |
 | Fabric API, Fabric Language Kotlin, Cloth Config, Architectury, libIPN | Libraries the above need |
 
 ## Install (one time)

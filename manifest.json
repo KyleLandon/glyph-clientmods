@@ -24,6 +24,12 @@
             "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/Jade-mc26.3-Fabric-26.3.5.jar"
         },
         {
+            "file": "MouseTweaks-fabric-mc26.3-2.31.jar",
+            "sha256": "7fa35df568c870c45fd144dc9a54139459ded823615dda32bc09d9025831e655",
+            "size": 74569,
+            "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/MouseTweaks-fabric-mc26.3-2.31.jar"
+        },
+        {
             "file": "appleskin-fabric-mc26.3-3.0.10.jar",
             "sha256": "cb05087c39f0d860611aa1fae7cf63560214d1b71378a7c903c18dc370b5c3ce",
             "size": 180194,
@@ -42,6 +48,18 @@
             "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/cloth-config-fabric-26.3.159.jar"
         },
         {
+            "file": "continuity-3.0.1+26.3.jar",
+            "sha256": "429fb0946118e86cce8ace8b57d07e1971088fb3f8115439bb0f2f12df14f511",
+            "size": 1002033,
+            "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/continuity-3.0.1%2B26.3.jar"
+        },
+        {
+            "file": "entityculling-fabric-1.11.3-mc26.3.jar",
+            "sha256": "d2f80514ee3382b1fa7afda4df762df50743226e3cd320b829ee507357aeafbc",
+            "size": 1508547,
+            "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/entityculling-fabric-1.11.3-mc26.3.jar"
+        },
+        {
             "file": "fabric-api-0.165.0+26.3.jar",
             "sha256": "18442e2ad466d6ef41c37dbb4cb68495e6ca6658b1f1ee9be76143d155ef2c88",
             "size": 1778588,
@@ -52,6 +70,12 @@
             "sha256": "fbdbf5286ab9d65fedb49e6e01c15e338ae303eb7b9d8c7423d0a9bcfe526ef9",
             "size": 8142878,
             "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/fabric-language-kotlin-1.14.2%2Bkotlin.2.4.21.jar"
+        },
+        {
+            "file": "ferritecore-9.0.0-fabric.jar",
+            "sha256": "213966c72ed967acc7392beb28a866fba301ff56b9976c2e7801c2db7de6bf22",
+            "size": 72677,
+            "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/ferritecore-9.0.0-fabric.jar"
         },
         {
             "file": "iris-fabric-1.11.7+mc26.3.jar",
@@ -72,6 +96,12 @@
             "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/libIPN-fabric-26.3-6.9.0.jar"
         },
         {
+            "file": "lithium-fabric-0.26.2+mc26.3.jar",
+            "sha256": "0be5b17ef9f6e9244cd07b24b227553a73aec0cf93158cf28099f3094c167f1b",
+            "size": 914543,
+            "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/lithium-fabric-0.26.2%2Bmc26.3.jar"
+        },
+        {
             "file": "modmenu-21.0.0.jar",
             "sha256": "837812c6c98d66141db7b5dcae668f27fb78d557e8f4c0c89912985fc26a5e6f",
             "size": 856779,
@@ -82,6 +112,12 @@
             "sha256": "2d4a8abd7f7b66daa5073bf5ea2871b3f2d94864d2497d945f71cc961980aaa6",
             "size": 424841,
             "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/shulkerboxtooltip-fabric-5.4.3%2B26.3.jar"
+        },
+        {
+            "file": "sodium-extra-fabric-0.9.5+mc26.3.jar",
+            "sha256": "486d54cd1914e8c8e49c2f02b3e760f1a0d64c0d242ae175870784582b374dc2",
+            "size": 481973,
+            "url": "https://raw.githubusercontent.com/KyleLandon/glyph-clientmods/main/mods/sodium-extra-fabric-0.9.5%2Bmc26.3.jar"
         },
         {
             "file": "sodium-fabric-0.9.2+mc26.3.jar",
