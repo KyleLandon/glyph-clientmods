@@ -2,7 +2,7 @@
 
 # Glyph Client Modpack
 
-Optional client mods for **play.glyphmc.net** (Minecraft 26.2, Fabric).
+Optional client mods for **play.glyphmc.net** (Minecraft 26.3, Fabric).
 None of these are required to join — they add voice chat, maps, performance,
 and quality-of-life features that match the server.
 
@@ -25,7 +25,7 @@ and quality-of-life features that match the server.
 ## Install (one time)
 
 1. Install [Fabric Loader](https://fabricmc.net/use/installer/) for
-   Minecraft **26.2** (or create a 26.2 Fabric instance in Prism/MultiMC/
+   Minecraft **26.3** (or create a 26.3 Fabric instance in Prism/MultiMC/
    Modrinth App).
 2. Download this pack: **Code → Download ZIP** (green button above), or
    [click here](https://github.com/KyleLandon/glyph-clientmods/archive/refs/heads/main.zip).
